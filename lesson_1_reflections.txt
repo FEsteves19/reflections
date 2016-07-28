@@ -1,0 +1,43 @@
+Version Control Lesson 1 Reflections
+
+1) How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Estando o conteudo dos dois ficheiros visiveis em simultaneo, consegui facilmente detetar o erro ao ver o que foi removido/adicionado em relacao a versao anterior.
+
+2) How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    permite ver o codigo que estava feito nas varias etapas do ficheiro facilmente, tornando mais facil por e.x. a reposicao de codigo que tenha sido apagado inadvertidamente.
+
+3) What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Commit Manual
+    	Vantagens : é escolhido o momento certo em que se quer submeter as alterações.
+
+    	Desvantagens: Pode haver esquecimento por parte do utilizador, colocando o trabalho de outros em causa.
+
+    Commit Automático
+    	Vantagens : O utilizador não tem que se preocupar em guardar o trabalho nem corre o risco de perder informação.
+
+    	Desvantagens: São  guardadas demasiadas versões, ocupando espaço e dificultando a sua percepção.
+
+4) Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    No caso do Git muitas vezes é necessário alterar mais do que 1 ficheiro por estes estarem inter-relacionados. Pelo contrário, no caso do google docs, podemos trabalhar em ficheiros diferentes mas estes nunca dependem uns os outros.
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+    git log dá o histórico completo dos commits. com esta lista podemos escolher 2 commits simultaneos e ver as diferenças entre eles, para isto usa-se o comando "git diff Id-commit-1 Id-commit-2".
+
+6) How might using version control make you more confident to make changes that
+could break something?
+
+    posso voltar a versoes anteriores à introdução do erro facilmente.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
