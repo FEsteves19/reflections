@@ -3,6 +3,8 @@
 
 2) How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	permite que seja feito um commit por operação logica, e não faz um snapshot de todos os ficheiros como o workig directory.
+	É vantajoso visto que não têm que ser adicionados todos os ficheiros de uma vez ao repositorio, tornando mais fragmentada em termos de implementações lógicas.
 
 3) How can you use the staging area to make sure you have one commit per logical
 change?
