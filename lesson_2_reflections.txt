@@ -8,14 +8,18 @@ What value do you think it offers?
 
 3) How can you use the staging area to make sure you have one commit per logical
 change?
+	Analisando as alterações com o repositório através do comando git diff --staged
 
 4) What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Podemos fazer alterações que não afetem a versão oficial do projeto. Exemplo disso pode ser o desenvolvimento de novas funcionlidades / experiencias. Os branches ajudam no sentido em que se eu quiser uma versão estável do programa consigo sem ter o código que está à parte.
 
 5) How do the diagrams help you visualize the branch structure?
+	mostra claramente a interligaçao entre os commits de cada branch para além de dar uma conologia mais legivel das alterações.
 
 6) What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	O resultado é um commit que contém o código dos 2 branches. É representado no diagrama de forma a ser facilmente perceptível os commits que deram origem ao novo commit
 
 7) What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
