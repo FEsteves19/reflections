@@ -23,3 +23,9 @@ the diagram the way we do?
 
 7) What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	-automatic merge pros : agilliza o processo de junção de código.
+	-automatic merge cons : o git não consegue decidir todas as situações, por exemplo a mesma linha alterada em branches diferrentes.
+
+	-manual merge pros : resolução de conflitos é mais fácil para o humano do que para a máquina.
+	-manual merge cons : Pode gerar incoerencias se não for feito com atenção.
+	
